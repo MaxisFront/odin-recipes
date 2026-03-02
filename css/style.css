@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #0D0D0D;
+  color: #ffff
+}
+
+.home__title {
+  margin-inline: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 20rem;
+  border: solid 1px red;
+  text-align: center;
+}
+
+.home__text {
+  margin-inline: auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 60rem;
+  /*border: solid 1px blue;*/
+
+}
+
+.home__text--title {
+  text-align: center;
+}
+
+.home__text--paragraph {
+  text-align: justify;
+}
+
+.home__image {
+  /*border: solid 1px red;/
+  max-width: 40rem;
+  height: auto;
+  display: block;
+  margin: auto 0;
+}
+
+
