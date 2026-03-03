@@ -1,10 +1,13 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #0D0D0D;
-  color: #ffff
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .home__title {
@@ -13,20 +16,18 @@ body {
   margin-bottom: 2rem;
   width: 100%;
   max-width: 20rem;
-  border: solid 1px red;
   text-align: center;
 }
 
 .home__text {
   margin-inline: auto;
   padding: 1rem;
-  width: 100%;
-  max-width: 60rem;
+  max-width: 61rem;
   /*border: solid 1px blue;*/
-
 }
 
-.home__text--title {
+.home__text--title,
+.home__text--subheading {
   text-align: center;
 }
 
@@ -35,11 +36,30 @@ body {
 }
 
 .home__image {
-  /*border: solid 1px red;/
-  max-width: 40rem;
-  height: auto;
+  width: min(90%, 59rem); /* Cover the 90% of the screen, with a max of 59rem */
+  aspect-ratio: 16 / 9;
   display: block;
-  margin: auto 0;
+  margin: 0 auto;
 }
 
+.home__list {
+  max-width: 16rem;
+  padding-left: 3rem;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  text-align: justify;
+  color: orange;
+}
 
+.home__list a {
+  color: red;
+}
+
+.home__url {
+  /* border: solid 1px black; */
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-top: 1rem;
+  list-style-type: none;
+  text-align: center;
+}
